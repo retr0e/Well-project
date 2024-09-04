@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react';
 import { ViewState, EditingState } from '@devexpress/dx-react-scheduler';
 import Paper from '@mui/material/Paper';
-import LocaleViewSwitcher from './components/LocaleViewSwitcher.jsx';
-import LocaleSwitcher from './components/LocaleSwitcher.jsx';
+import LocaleViewSwitcher from './LocaleViewSwitcher.jsx';
+import LocaleSwitcher from './LocaleSwitcher.jsx';
 import {
   Scheduler,
   DayView,
@@ -25,7 +25,7 @@ import {
   deleteDoc,
   updateDoc,
 } from 'firebase/firestore';
-import { db } from './firebase.js';
+import { db } from './../firebase.js';
 
 const CURRENT_DATE = new Date().toJSON().slice(0, 10);
 
