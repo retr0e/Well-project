@@ -1,0 +1,9 @@
+.view-mode-button {
+  border: none;
+  border-bottom: 1px black solid;
+  border-radius: 15%;
+  background-color: rgb(25, 118, 210);
+  color: white;
+  margin: 0px 5px;
+  padding: 10px;
+}
